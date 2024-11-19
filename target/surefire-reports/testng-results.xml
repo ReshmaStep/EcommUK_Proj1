@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T15:47:32 GMT-05:00" name="Suite" finished-at="2024-11-19T15:48:09 GMT-05:00" duration-ms="37331">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T15:47:32 GMT-05:00" name="Test" finished-at="2024-11-19T15:48:09 GMT-05:00" duration-ms="37331">
+      <class name="uk.co.automationtesting.OrderCompleteTest">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@5656be13]" started-at="2024-11-19T15:47:32 GMT-05:00" name="getDriver" finished-at="2024-11-19T15:47:35 GMT-05:00" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@5656be13]" started-at="2024-11-19T15:47:35 GMT-05:00" name="setup" finished-at="2024-11-19T15:47:40 GMT-05:00" depends-on-methods="com.w2a.baseclass.BaseClass1.getDriver" duration-ms="4210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@5656be13]" started-at="2024-11-19T15:47:40 GMT-05:00" name="endToEndTest" finished-at="2024-11-19T15:48:09 GMT-05:00" duration-ms="29480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@5656be13]" started-at="2024-11-19T15:48:09 GMT-05:00" name="tearDown" finished-at="2024-11-19T15:48:09 GMT-05:00" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.automationtesting.OrderCompleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

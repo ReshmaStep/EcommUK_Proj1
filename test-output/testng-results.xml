@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T13:07:17 GMT-05:00" name="Default suite" finished-at="2024-11-19T13:07:41 GMT-05:00" duration-ms="23892">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T13:07:17 GMT-05:00" name="Default test" finished-at="2024-11-19T13:07:41 GMT-05:00" duration-ms="23892">
+      <class name="uk.co.automationtesting.OrderCompleteTest">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@305b7c14]" started-at="2024-11-19T13:07:17 GMT-05:00" name="getDriver" finished-at="2024-11-19T13:07:22 GMT-05:00" duration-ms="4431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@305b7c14]" started-at="2024-11-19T13:07:22 GMT-05:00" name="setup" finished-at="2024-11-19T13:07:24 GMT-05:00" depends-on-methods="com.w2a.baseclass.BaseClass1.getDriver" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@305b7c14]" started-at="2024-11-19T13:07:24 GMT-05:00" name="endToEndTest" finished-at="2024-11-19T13:07:41 GMT-05:00" duration-ms="17224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@305b7c14]" started-at="2024-11-19T13:07:41 GMT-05:00" name="tearDown" finished-at="2024-11-19T13:07:41 GMT-05:00" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.automationtesting.OrderCompleteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
